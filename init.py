@@ -5,7 +5,7 @@ import sys
 import json
 
 from api import Api
-from Birthdays import *
+from processes import *
 
 
 data=requests.get("http://quotes.rest/qod.json")
